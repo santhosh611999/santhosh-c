@@ -22,10 +22,6 @@ void main()
          }
        }
  }
-     for(int i=0;i<s;++i)
-     {
-     printf("sorted array is %d \n",a[i]);
-     }
    	mid=s/2;
 	printf("\nTHE MEDIAN ELEMENT IS :");	
 	for(i=0;i<s;i++)
