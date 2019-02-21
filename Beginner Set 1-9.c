@@ -11,7 +11,7 @@ void main()
 	    printf("Enter array values");
 	    scanf("%d",&a[i]);
 	}
-	for(int j=0;j<a[k];j++)
+	for(int j=0;j<k;j++)
 	{
 	    m=a[j]+m;
 	}
