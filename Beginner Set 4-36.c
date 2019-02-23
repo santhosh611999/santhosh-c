@@ -4,7 +4,7 @@ main()
 {
     char str[50];
     int i=0,c,s=0;
-    printf("\nEnter nymeric: ");
+    printf("\nEnter string: ");
     gets(str);
     while (str[i] != '\0')
     {
@@ -18,6 +18,6 @@ main()
         }
             i++;
     }
-    printf("\nNumber of numeric chars are: %d",s);
+    printf("\nNumber of special chars are: %d",s);
     getch();
 }
