@@ -16,10 +16,10 @@ void main()
 	}
 	if(flag==0)
 	{
-		printf("\n %d is a power of 2",num);
+		printf("Yes);
 	}
 	else if(flag==1)
 	{
-		printf("\n %d is not a power of 2",num);
+		printf("No");
 	}
 }
